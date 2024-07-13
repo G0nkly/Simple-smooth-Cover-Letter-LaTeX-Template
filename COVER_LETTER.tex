@@ -1,0 +1,34 @@
+% !TEX TS-program = luatex
+% Simple & smooth Cover Letter LaTeX Template
+%
+% Author:
+% Christian Hemauer
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+\documentclass[localFont,alternative]{simple-and-smooth-cl}
+
+
+\usepackage[english]{babel}
+\usepackage{setspace}
+\setstretch{1.25}
+
+
+ % set the margins
+\newgeometry{vmargin={4em,12em}, hmargin={7em,7em}}  
+
+% import variables 
+\input{VARIABLES}
+
+\begin{document}
+
+\input{sections/header}
+\input{sections/applicant_address}
+\input{sections/todays_date}
+\input{sections/company_address}
+\input{sections/reference}
+\input{sections/body}
+\input{sections/greetings}
+
+\end{document}

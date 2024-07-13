@@ -1,0 +1,1 @@
+# Simple-smooth-Cover-Letter-LaTeX-Template
